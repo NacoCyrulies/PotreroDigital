@@ -3,6 +3,7 @@
 html{
     font-family: 'Ubuntu', sans-serif;
     font-size: 5px;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -268,10 +269,106 @@ footer span{
         color: brown;
     }
 
+    /*BANNER*/
+
+    #banner{
+        width: 100%;
+        height: 88vh;
+    }
+
+    .banner__titulo{
+        display: none;
+    }
+
+    .banner__carousel{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    /*MAIN*/
+
+    .section__title{
+        font-size: 2rem;
+    }
+
+    /*NOSOTROS */
+
+    #us{
+        height: auto;
+    }
+
+    #us p{
+        font-size: 2rem;
+        margin: 15% 0;
+    }
 
 
+    /*SERVICIOS*/
 
+    #services{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
+    #services .section__title{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .services__item{
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 12% 2%;
+    }
+    
+    .services__image{
+        font-size: 6rem;
+    }
+    
+    .services__item h3{
+        font-size: 2rem;
+    }
+
+    /*CONTACTO*/
+
+    #contact{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    #contact .section__title{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact__item{
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 12% 2%;
+    }
+    
+    .contact__image{
+        font-size: 6rem;
+    }
+    
+    .contact__title{
+        font-size: 2rem;
+    }
+    
+    /*FOOTER*/
+
+    footer span{
+        font-size: 1.5rem;
+    }
 
 }
 
