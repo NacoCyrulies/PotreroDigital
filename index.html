@@ -7,23 +7,25 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="./public/css/estilos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <header>
-        <div class="">
+        <div class="header__logo">
             <img src="./public/img/potrero.png" alt="logo">
         </div>
-        <div class="">
-            <button type="button" name="button">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-        <nav>
+        <button class="header_icono" type="button" name="button">
+            <i class="icono fas fa-bars"></i>
+        </button>
+        
+        <nav class="header__navigation">
             <ul>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a class="navigation_link" href="">Nosotros</a></li>
+                <li><a class="navigation_link" href="">Servicios</a></li>
+                <li><a class="navigation_link" href="">Contacto</a></li>
             </ul>
         </nav>
     </header>
