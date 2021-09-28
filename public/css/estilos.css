@@ -211,3 +211,24 @@ main section{
     text-decoration: none;
     color: rgb(240, 240, 240)
 }
+
+/*FOOTER*/
+
+footer{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+}
+
+footer span{
+    font-size: 2rem;
+    color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+
+
+
