@@ -145,6 +145,8 @@ main section{
     font-size: 4rem;
 }
 
+/* SECCION NOSTROS*/
+
 #us{
     background-color: rgb(240, 240, 240);
 }
@@ -153,5 +155,30 @@ main section{
     margin-top: 35%;
     font-size: 2.5rem;
     text-align: justify;
-
 }
+
+/*SECCION SERVICIOS*/
+
+#services{
+    background-color: rgb(220, 220, 220);
+    height: auto;
+}
+
+.services__item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30% 0; 
+}
+
+.services__image{
+    font-size: 12rem;
+}
+
+.services__image h3{
+    font-size: 4rem;
+}
+
+
