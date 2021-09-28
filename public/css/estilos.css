@@ -35,7 +35,7 @@ header{
     width: 20%;
 }
 
-.header_icono{
+.header__icono{
     height: 100%;
     width: 20%;
     border: 0;
@@ -54,6 +54,17 @@ header{
     justify-content: center;
     align-items: center;
     align-content: center;
+    display: none;
+}
+
+.header__navigation--active{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.header__navigation--disable{
     display: none;
 }
 
@@ -76,7 +87,7 @@ header{
     list-style: none;
 }
 
-.navigation_link{
+.navigation__link{
     color: rgb(240, 240, 240);
     text-decoration: none;
     font-size: 1.7rem;
