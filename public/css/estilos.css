@@ -230,5 +230,50 @@ footer span{
 }
 
 
+@media (min-width: 1000px){
+
+    html{
+        font-size: 10px;
+    }
+    
+    header{
+        height: 10vh;
+    }
+
+    .header__icono{
+        display: none;
+    }
+
+    .header__navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: transparent;
+        flex-direction: row;
+        width: 80%;
+        height: 100%;
+    }
+
+    .header__navigation ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+    }
+
+    .navigation__link{
+        font-size: 2rem;
+        color: brown;
+    }
+
+
+
+
+
+
+}
+
 
 
